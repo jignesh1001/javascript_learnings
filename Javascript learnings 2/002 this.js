@@ -1,3 +1,4 @@
+// this keyword
 
 console.log(this)
 console.log(window)
