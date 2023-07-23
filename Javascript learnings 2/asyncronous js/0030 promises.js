@@ -13,12 +13,13 @@ const friedRicePromise = new Promise((resolve, reject) => {
         } else {
             reject("couldn't do it");
         }
-    });
+    }); 
     
 //  console.log(friedRicePromise)   
     // consume promise
     // how to consume
-    
+// consumption of promise is done by browser
+// added i  microtask queue    
     friedRicePromise.then(
         // jab promise resolve hoga
         (myFriedRice) => {
@@ -29,11 +30,12 @@ const friedRicePromise = new Promise((resolve, reject) => {
         ).catch((error) => {
             console.log( error);
         })
+// added in callback queue        
         setTimeout(()=>{
             console.log("Hello from settimeout")
           },0)
         
-        
+// for loop for understanding ansynchronous behaviour of promise        
         for(let i = 0;i<=100;i++){
             console.log(Math.random(),i)
         }

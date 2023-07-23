@@ -53,10 +53,11 @@ else{
     if(onFailCallback)
     {
         onFailCallback()
-    }
+  }
 }
     },time)
 }
+// PYRAMIS OF DOOM
 changeText(heading1,"one","violet",1000,()=>{
     changeText(heading2,"two","cyan",1000,()=>{
         changeText(heading3,"three","red",1000,()=>{

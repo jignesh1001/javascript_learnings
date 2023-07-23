@@ -1,4 +1,4 @@
-// Promise.resolve
+   // Promise.resolve
 // Promise Chaining
 
 // const myPromise = Promise.resolve(8)
@@ -6,7 +6,7 @@
 //     console.log(value)
 // })
 
-// then()
+// then() 
 // then method hamesha promise return karta hai
 
 function myPromise(){
