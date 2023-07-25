@@ -5,7 +5,7 @@ const xhr = new XMLHttpRequest()
  xhr.onload = () =>{
     if(xhr.status >= 200 && xhr.status <300){
         const data=  JSON.parse(xhr.response)
-           console.log(data)
+        console.log(data) 
         const id = data[3].id
         const xhr2 = new  XMLHttpRequest()
         const URL2 = `${URL}/${id}`

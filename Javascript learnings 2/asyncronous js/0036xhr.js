@@ -16,11 +16,16 @@ xhr.open("GET",URL)
 //     }
 // }
 
+// excutes only when readyState is 4
+
 xhr.onload = function(){
     console.log(xhr.readyState)
         const response = xhr.response
-        console.log(response)
+        // console.log(response)
         const data = JSON.parse(response)
-console.log(data)
+        console.log(data)
+
 }
 xhr.send()
+
+

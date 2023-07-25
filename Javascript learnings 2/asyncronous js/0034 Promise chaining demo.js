@@ -26,6 +26,7 @@ function changeText(element,text,color,time){
     })
 
    }
+   
 changeText(heading1,"one","blue",1000)
  .then(()=> changeText(heading2,"two","purple",1000))
  .then(()=> changeText(heading3,"three","yellow",1000))

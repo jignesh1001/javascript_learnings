@@ -1,10 +1,13 @@
    // Promise.resolve
 // Promise Chaining
 
-// const myPromise = Promise.resolve(8)
+// const myPromise = Promise.resolve({name : "Gus Fring",age : 53, owns : "Pllos Harmanos"})
+
 // myPromise.then(value=>{
 //     console.log(value)
+//     return value
 // })
+ 
 
 // then() 
 // then method hamesha promise return karta hai
